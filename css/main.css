@@ -135,18 +135,61 @@ textarea {
     width: 22px;
     height: 22px;
 }
+.mini-address-icon {
+    background-position: -8px -52px;
+    width: 27px;
+    height: 26px;
+}
+.mini-time-icon {
+    background-position: -43px -52px;
+    width: 27px;
+    height: 26px;
+}
+.mini-phone-icon {
+    background-position: -77px -53px;
+    width: 27px;
+    height: 26px;
+}
+.mini-envelope-icon {
+    background-position: -107px -54px;
+    width: 27px;
+    height: 26px;
+}
+
+.home-icon {
+    background-position: -55px -86px;
+    width: 20px;
+    height: 20px;
+}
 
 .homePageBg {
     background-image: url(../img/bgHome.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
+
+/*FONTS PROPERTIES*/
+
+.fontSize__16px {
+    font-size: 16px;
+}
+.fontSize__15px {
+    font-size: 15px;
+}
+.fontSize__13px {
+    font-size: 13px;
+}
+.fontStyle__light {
+    font-family: "SourceSansProLight";
+}
+
 
 
 /*HEADER*/
 
 .headerMain {
-    background-color: #000;
+    background-color: #050505;
     padding: 25px 0 30px;
     color: #fff;
 }
@@ -211,11 +254,133 @@ textarea {
     text-decoration: none;
 }
 
+/*HEADER*/
+
+/*FOOTER*/
+
+.footerMain {
+    background-color: #050505;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.footerMain p {
+    margin: 0;
+}
+
+.logoFooter img {
+    max-width: 100%;
+}
+
+.footerMenu {
+    margin: 0;
+    padding: 0;
+}
+
+.footerMenu li {
+    list-style-type: none;
+    margin-bottom: 4px;
+}
+
+
+.footerMenu li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footerMenu li a:hover {
+    text-decoration: underline;
+}
+.footerCopy{
+    margin: 25px 0 15px;
+}
+.footerPolicy a {
+    color: #fff;
+    font-size: 13px;
+}
+.footerAddress {
+    margin: 15px 0 0;
+    list-style-type: none;
+    position: relative;
+    font-size: 16px;
+    padding: 0;
+
+}
+
+.footerAddress li {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
+.footerAddress li span {
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+.footerAddress li:first-child span {
+    top: 4px;
+}
+
+.footerSoc ul {
+    padding: 10px 0 0;
+    margin: 0;
+    list-style-type: none;
+}
+.footerSoc ul li {
+    margin-bottom: 9px;
+}
+.footerSoc ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footerSoc ul li a:hover {
+    text-decoration: underline;
+}
+.footerSoc ul span {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footerSearch {
+    position: relative;
+    margin-top: 30px;
+}
+
+.footerSearch:after {
+    position: absolute;
+    content: '';
+    background-image: url(../img/sprite.png);
+    background-position: -10px -85px;
+    width: 25px;
+    height: 25px;
+    right: 15px;
+    top: 10px;
+
+}
+
+.footerSearch input {
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 10px 15px;
+    color: #fff;
+    outline: none;
+}
+.footerSearch input::placeholder {
+    color: #fff;
+}
+
+/*FOOTER*/
+
 
 .sliderHome {
     color: #fff;
     line-height: 1.1;
     text-align: right;
+}
+
+.sliderHome__img img {
+    display: inline-block;
 }
 
 .sliderHome__date {
@@ -236,6 +401,81 @@ textarea {
     padding: 10px 40px;
     display: inline-block;
 }
+
+.sliderHomeWrap {
+    margin-top: 150px;
+    padding-bottom: 250px;
+}
+
+
+.sliderHome .slick-dots li button {
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.sliderHome .slick-dots {
+    bottom: -40px;
+    max-width: 240px;
+    right: 0;
+}
+
+.sliderHome .slick-dots li button:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    left: 6px;
+    top: 6px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+}
+
+/*BreadCrumbs*/
+
+.breadcrumbs ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+.breadcrumbs ul li:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/sprite.png);
+    background-position: -89px -91px;
+    width: 25px;
+    height: 10px;
+    margin: 0 4px 0 8px;
+}
+.breadcrumbs ul li:last-child:after {
+    display: none;
+}
+.breadcrumbs ul li span {
+    margin-right: 6px;
+    margin-top: -2px;
+}
+.breadcrumbs ul li a {
+    color: #6d6e71;
+    text-decoration: none;
+}
+
+.titleArkhip {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Arkhip_font";
+    margin-top: 35px;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
