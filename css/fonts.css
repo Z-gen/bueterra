@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "SourceSansProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SourceSansProRegular/SourceSansPro-Regular.eot") format("embedded-opentype"),
+  url("../fonts/SourceSansProRegular/SourceSansPro-Regular.woff") format("woff"),
+  url("../fonts/SourceSansProRegular/SourceSansPro-Regular.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: "SourceSansProBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SourceSansProBold/SourceSansPro-Bold.eot") format("embedded-opentype"),
+  url("../fonts/SourceSansProBold/SourceSansPro-Bold.woff") format("woff"),
+  url("../fonts/SourceSansProBold/SourceSansPro-Bold.ttf") format("truetype"); 
+}
